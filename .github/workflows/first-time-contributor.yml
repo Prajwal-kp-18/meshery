@@ -48,3 +48,7 @@ jobs:
               labels: ['first-time-contributor'] 
             });
 
+permissions:
+  contents: read
+  pull-requests: write
+

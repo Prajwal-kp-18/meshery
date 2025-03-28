@@ -6,6 +6,10 @@ on:
     paths:
       - '!**'
       - 'docs/**'
+permissions:
+  contents: read
+  actions: write
+
 jobs:
   trigger-site-preview:
     runs-on: ubuntu-24.04
